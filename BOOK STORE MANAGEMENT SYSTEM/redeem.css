@@ -1,0 +1,32 @@
+.body{
+    padding-left: 10px;
+    padding-top: 200px;
+    margin: 20px;
+    
+
+}
+.book-list {
+    display: flex;
+    flex-direction: column;
+}
+.book-1{
+    height: 60px;
+    width: 1000px;
+}
+.book-2{
+    height:60px;
+    width: 1000px;
+}
+.book-3{
+    height: 30px;
+    width: 1000px;
+}
+.back button{
+    margin-top: right;
+}
+.search-container{
+    margin-top: right;
+}
+.search-container button{
+    margin: 10px;
+}

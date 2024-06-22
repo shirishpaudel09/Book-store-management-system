@@ -1,0 +1,149 @@
+/* Import Google font cdn link */
+@import url('https://fonts.googleapis.com/css?') ;
+family("Roboto:wght@100&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family:"Poppins","sans-serif";
+}
+body{
+    display: flex;
+    color: #8e1313;
+}
+.sidebar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 110px;
+    height: 100vh;
+    padding: 0 1.7rem;
+    color: #8e1313;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    background: rgba(113, 99, 186, 255);
+}
+.sidebar:hover{
+    width: 240px;
+    transition: 0.5s;
+}
+.logo{
+    height: 80px;
+    padding: 16px;
+}
+.items{
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+.items li {
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+.items li:hover,
+.active {
+    background: #6f14ac58;
+}
+.items a {
+    color:#fff;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.items a span{
+    overflow: hidden;
+}
+.items a i{
+    font-size: 1.2rem;
+}
+.logout{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+book-list{
+    padding:0;
+    height: 0px;
+    color: cornflowerblue;
+}
+images
+{
+    color: #fff;
+    padding:0;
+    height: 0px;
+    width: 0%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-repeat: round;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.Book-Registration-form{
+    width: 600px;
+    height: 600px;
+    background: rgb(225, 225, 225);
+    border-color: #4609d5;
+    color: red;
+    top: 10%;
+    left: 33%;
+    position: absolute;
+    translate: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    border-radius: 50px;
+    cursor: pointer;
+    background: aqua;
+    color: rgb(2, 7, 4);
+    text-align: center;
+}
+.button
+{
+    border:2px;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background: rgb(240, 5, 5);
+    color: rgb(112, 89, 181);
+    font-size: 16px;
+    border-radius: 20px;  
+}
+.loginbox input[type="password"] 
+{
+    border: red;
+    border-bottom: #09d55e;
+    border: 2px solid;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Book Registration-form{
+    width: 320px;
+    height: 600px;
+    background: #5555d9;
+    color: #0f0b01;
+    top: 10%;
+    left: 50%;
+    position: absolute;
+    translate: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius:40px;
+    padding: 70px 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+

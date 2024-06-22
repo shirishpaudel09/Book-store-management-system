@@ -1,0 +1,154 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.image{
+  height: 20px;
+  width: 200px;
+}
+:root{
+     --navbar-height:59px;
+}
+#navbar{
+  display: flex;
+  align-items: center;
+}
+#logo{
+  margin: 34px 45px;
+}
+#logo img{
+    height: 56px;
+    margin: 34px 45px;
+}
+#logo img{
+  height: 59px;
+  margin: 3px 6px;
+}
+#navbar{
+  position: absolute;
+  width:100%;
+
+}
+#navbar::before{
+  content:"";
+  background-color: rgb(224, 10, 10);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
+}
+#navbar ul{
+  display: flex;
+}
+#navbar ul li{
+   color:white; 
+  list-style: none;
+  font-size: 1.5rem;
+}
+#navbar ul li a{
+   display: flex;
+   padding: 3px 22px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+#navbar ul li a:hover{
+  color: black;
+  background-color: white;
+}
+#home{
+  display: flex;
+  flex-direction: column;
+  padding: 3px 200px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+#home:hover{
+  content: "";
+  position: absolute;
+   /* background: url('/images/novel.jpg');  */
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.89;
+}
+
+body{
+  background-color: azure #0b910b;
+   background-repeat: no-repeat; 
+  background-size: 100%;
+  height : 1200px ;
+}
+body {
+    width: 100%;
+    height: 100%;
+     /* background-image: url(images/lib.jpg);  */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+  
+  }
+ 
+  nav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  nav a {
+    float: center;
+    color: #fff;
+    padding: 14px 19px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+   .column.side {
+    width: 25%;
+  }
+  
+  .column.middle {
+    width: 50%;
+  } 
+  p {
+    text-align: justify;
+  }
+.search box .search i{
+  color:#ffffff;
+  position:relative;
+  right:50%;
+  top: 20px;
+  background-color:#0b910b;
+  padding: 12px;
+  border-radius: 50px;
+}
+.book-img{
+  padding: 50px;
+  margin: 40px 0 0 0;
+  height: 1px 50px;
+}
+.row{
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.column{
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  float: left;
+  margin-top: 20px;
+  
+}
+.column img{
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+

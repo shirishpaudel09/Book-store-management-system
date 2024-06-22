@@ -1,0 +1,32 @@
+body
+{
+    margin-top: 10;
+    margin-left: 30%;
+    background-color: rgb(186, 223, 223);
+}
+.Registration-form
+{
+    background-color: rgb(191, 194, 192);
+    height: 250px;
+    width: 2500px;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin: 2px;
+    margin-left: 20px;
+}
+.Registration-form h1
+{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+.form
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+   

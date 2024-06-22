@@ -1,0 +1,71 @@
+/* Import Google font cdn link */
+@import url('https://fonts.googleapis.com/css2?') ;
+family("Roboto:wght@100&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family:"Poppins","sans-serif";
+}
+body{
+    display: flex;
+}
+.sidebar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    height: 100px;
+    padding: 0 1.7rem;
+    color: #8e1313;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    background: rgba(113, 99, 186, 255); 
+}
+.sidebar:hover{
+    width: 200px;
+    transition: 0.9s;
+}
+.logo{
+    height: 80px;
+    padding: 16px;
+}
+.items{
+    height: 88%;
+    position: relative;
+    list-style: none;
+    padding: 0;
+}
+.items li {
+    padding: 1rem;
+    margin: 8px 0;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+.items li:hover,
+.active {
+    background: #e0e0e058;
+}
+.items a {
+    color:#9c3a3a;
+    font-size: 14px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.items a span{
+    overflow: hidden;
+}
+.items a i{
+    font-size: 1.2rem;
+}
+.logout{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
